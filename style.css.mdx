@@ -1,0 +1,48 @@
+/* Kazakh label override. Kazakh files live under /uz/ as a workaround.
+   Replace O'zbekcha with Қазақша in the language switcher. */
+
+/* Dropdown item */
+#localization-select-item-uz p {
+  position: relative !important;
+  color: transparent !important;
+  user-select: none !important;
+}
+
+#localization-select-item-uz p::before {
+  content: "Қазақша";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: initial;
+  font: inherit;
+  white-space: nowrap;
+}
+
+/* Trigger button: applied on any /uz/ page regardless of html lang attribute */
+#localization-select-trigger p {
+  position: relative;
+}
+
+#localization-select-trigger p::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: initial;
+  font: inherit;
+  white-space: nowrap;
+  background: inherit;
+}
+
+/* When trigger text is O'zbekcha, mask it and inject Қазақша */
+html[lang="uz"] #localization-select-trigger p,
+html[lang="uz-UZ"] #localization-select-trigger p,
+html[lang^="uz"] #localization-select-trigger p {
+  color: transparent !important;
+  user-select: none !important;
+}
+
+html[lang="uz"] #localization-select-trigger p::before,
+html[lang="uz-UZ"] #localization-select-trigger p::before,
+html[lang^="uz"] #localization-select-trigger p::before {
+  content: "Қазақша";
+}

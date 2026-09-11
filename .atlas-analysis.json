@@ -1,0 +1,105 @@
+{
+  "projectType": "saas",
+  "projectName": "eBanano",
+  "projectDescription": "eBanano is a travel eSIM service that lets users buy, install, and manage data plans on any eSIM-compatible device before or during their trip.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Help Center",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/what-is-ebanano",
+              "getting-started/compatible-devices",
+              "getting-started/choosing-a-plan",
+              "getting-started/first-purchase"
+            ]
+          },
+          {
+            "group": "Installation & Activation",
+            "pages": [
+              "installation/overview",
+              "installation/ios",
+              "installation/android",
+              "installation/activation"
+            ]
+          },
+          {
+            "group": "Using Your eSIM",
+            "pages": [
+              "using-esim/managing-data",
+              "using-esim/switching-networks",
+              "using-esim/top-up",
+              "using-esim/multiple-esims"
+            ]
+          },
+          {
+            "group": "Purchases & Payments",
+            "pages": [
+              "purchases/payment-methods",
+              "purchases/order-history",
+              "purchases/refunds",
+              "purchases/promo-codes"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/esim-not-working",
+              "troubleshooting/no-data-connection",
+              "troubleshooting/activation-failed",
+              "troubleshooting/device-compatibility"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Account & Rewards",
+        "groups": [
+          {
+            "group": "Your Account",
+            "pages": [
+              "account/create-account",
+              "account/profile-settings",
+              "account/security",
+              "account/notifications"
+            ]
+          },
+          {
+            "group": "Bananos & Loyalty",
+            "pages": [
+              "bananos/what-are-bananos",
+              "bananos/earning-bananos",
+              "bananos/redeeming-bananos",
+              "bananos/referral-program"
+            ]
+          },
+          {
+            "group": "About eBanano",
+            "pages": [
+              "about/how-it-works",
+              "about/supported-countries",
+              "about/contact-support"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Instant eSIM delivery — no physical SIM card needed",
+    "Coverage in 100+ countries with local and regional data plans",
+    "Easy QR code or automatic installation on compatible devices",
+    "Data top-up without buying a new plan",
+    "Bananos loyalty points earned on every purchase",
+    "Referral program to share and earn rewards",
+    "Multi-profile support — manage several eSIMs on one device",
+    "Real-time data balance tracking in the app"
+  ],
+  "publicApiSurface": []
+}

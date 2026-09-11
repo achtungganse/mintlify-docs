@@ -1,0 +1,125 @@
+---
+title: "Device Compatibility Issues With eSIM? Fix Them Here"
+sidebarTitle: "Device Compatibility"
+description: "Solve device compatibility issues with eBanano eSIM — carrier locks, unsupported models, firmware updates, and regional eSIM restrictions."
+---
+
+Before you conclude that your device just won't work with eBanano, it's worth checking a few things — because the word "incompatible" covers a surprisingly wide range of situations, and many of them are completely fixable. Whether it's a carrier lock, an outdated software version, or a regional quirk, there's a good chance you'll find a path forward right here.
+
+## Is Your Device Actually eSIM-Compatible?
+
+eSIM support is built into most modern flagship smartphones, but it's not universal. Here's a quick overview of the most popular models:
+
+| Brand | eSIM-Compatible Models |
+| --- | --- |
+| **Apple iPhone** | iPhone XS, XS Max, XR, and all newer models |
+| **Samsung Galaxy** | S20 series and newer; select A-series and Z-series (Fold/Flip) |
+| **Google Pixel** | Pixel 3 and newer |
+| **Other Android** | Varies by model — check manufacturer specs |
+
+<Info>
+  This table covers the most common devices, but compatibility can vary by region and carrier variant. For the definitive, up-to-date list, see the [full compatible devices guide](/en/getting-started/compatible-devices).
+</Info>
+
+## Carrier Lock Issues
+
+### What is a carrier lock?
+
+When you buy a phone through a carrier on a contract or installment plan, they often "lock" it so it only works with their own network. This means it'll accept their SIM cards just fine — but may flat-out refuse to install an eSIM profile from anyone else, including eBanano.
+
+### How to check if your phone is locked
+
+<Tabs>
+  <Tab title="iPhone">
+    1. Go to **Settings → General → About**.
+    2. Scroll down to **Carrier Lock** or **SIM Lock**.
+    3. If it says **"No SIM restrictions"** — great, you're unlocked!
+    4. If it says something like **"[Carrier Name] SIM"** — your phone is locked and you'll need to request an unlock before using eBanano.
+
+    Alternatively, you can insert a SIM card from a different carrier. If it works, your phone is unlocked. If you get an error, it's locked.
+  </Tab>
+  <Tab title="Android">
+    The exact path varies by manufacturer, but a common route is:
+
+    1. Go to **Settings → About Phone → SIM Status** (or **Connections → SIM Status**).
+    2. Look for a **Network** or **SIM Lock** field.
+    3. Some devices will say **"Allowed"** (unlocked) or **"Network Locked"** (locked).
+
+    If you're unsure, the easiest test is to insert a SIM from another carrier and see if it's accepted.
+  </Tab>
+</Tabs>
+
+### How to unlock your phone
+
+Contact your current carrier directly — by phone, in-store, or via their website — and ask them to unlock your device. You'll typically need to:
+
+- Confirm you own the device outright (or that your contract is complete)
+- Provide your phone's IMEI number (dial `*#06#` to find it)
+- Wait a short processing period (usually 24–72 hours)
+
+Most carriers are legally or contractually required to unlock your device once eligibility criteria are met, so don't be shy about asking.
+
+<Warning>
+  If your phone is carrier-locked, eBanano's eSIM **will not install** until you successfully request an unlock from your carrier. There is no workaround on eBanano's end — the restriction lives on your device. Once unlocked, eSIM installation will work normally.
+</Warning>
+
+## Firmware / Software Version Issues
+
+<Tip>
+  Make sure your phone is running the **latest available OS version** before installing your eSIM. eSIM support can be tied to specific software versions, and an outdated OS sometimes causes compatibility errors that a simple update will fix.
+</Tip>
+
+Updating your phone before you travel (while on home Wi-Fi) is always a good habit — it avoids unexpected issues and usually takes just a few minutes.
+
+<Tabs>
+  <Tab title="iPhone">
+    1. Connect to Wi-Fi and make sure your battery is above 50% (or plug in).
+    2. Go to **Settings → General → Software Update**.
+    3. If an update is available, tap **Download and Install**.
+    4. Once the update completes, try your eSIM installation again.
+  </Tab>
+  <Tab title="Android">
+    The path varies by manufacturer, but it's usually:
+
+    1. Go to **Settings → About Phone → Software Update** (or **System → System Update**).
+    2. Tap **Check for Updates**.
+    3. Download and install any available updates.
+    4. Once your phone restarts, proceed with your eSIM installation.
+  </Tab>
+</Tabs>
+
+## Regional eSIM Restrictions
+
+Some devices have eSIM-related restrictions depending on where they were originally purchased. Here are the most common questions we hear:
+
+<Accordion title="My iPhone was bought in China — does it support eSIM?">
+  iPhones sold in mainland China (models ending in CH/A or sold through Chinese carriers) do not support eSIM in many configurations — China's regulations historically required phones sold there to use only physical SIM cards. This applies to older models in particular (iPhone XS through iPhone 13 era).
+
+  If your iPhone was purchased in mainland China, check your model number: go to **Settings → General → About → Model Number**. Compare it against Apple's official specifications to confirm eSIM support for your specific variant. Unfortunately, if your model doesn't support eSIM, this can't be changed through software — you'd need a device that does support it.
+
+  Hong Kong and Macau models (ending in ZA/A) may have different rules — check Apple's specs for your specific model.
+</Accordion>
+
+<Accordion title="I bought my phone in the US — does it work globally with eSIM?">
+  For most US-purchased iPhones (iPhone XS through iPhone 13), eSIM works fine internationally with providers like eBanano.
+
+  However, **iPhone 14 models sold in the United States** are a special case: they ship with eSIM-only (no physical SIM tray) and were initially configured for US carriers. While Apple has updated these models to support international eSIM plans, some users have reported needing to update to the latest iOS version to enable full international eSIM compatibility.
+
+  If you have a US iPhone 14 and are having trouble, make sure you're on the latest iOS version and try again. If issues persist, [contact eBanano Support](/en/about/contact-support) — our team is familiar with this model's quirks.
+</Accordion>
+
+## Still Stuck?
+
+If you've worked through the checks above and still can't get eBanano working on your device, our support team would love to help. [Contact eBanano Support](/en/about/contact-support) with your device model, where it was purchased, and a description of what happens when you try to install — we'll dig into it together.
+
+## Related Articles
+
+<CardGroup cols={2}>
+  <Card title="eSIM Not Working" icon="sim-card" href="/en/troubleshooting/esim-not-working">
+    Device is compatible but eSIM still misbehaving? Run through the full troubleshooting checklist.
+  </Card>
+
+  <Card title="Compatible Devices" icon="mobile" href="/en/getting-started/compatible-devices">
+    Browse the full list of devices confirmed to work with eBanano eSIM.
+  </Card>
+</CardGroup>
