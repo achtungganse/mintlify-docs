@@ -325,8 +325,7 @@
   },
   "logo": {
     "light": "/images/Лого.svg",
-    "dark": "/images/Лого.svg",
-    "href": "https://e-banano.com"
+    "dark": "/images/Лого.svg"
   },
   "metadata": {
     "timestamp": true
