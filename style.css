@@ -15,19 +15,19 @@
   line-height: inherit;
 }
 
-/* Триггер когда выбран uz */
+/* Триггер когда выбран uz — скрываем оригинал сразу */
 html[lang="uz"] #localization-select-trigger span.truncate {
-  color: transparent !important;
+  visibility: hidden;
   position: relative;
 }
 html[lang="uz"] #localization-select-trigger span.truncate::after {
   content: "Қазақша";
+  visibility: visible;
   position: absolute;
   left: 0;
   top: 0;
-  color: initial;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
+  color: inherit;
 }
-
