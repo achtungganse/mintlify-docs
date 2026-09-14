@@ -20,9 +20,9 @@
           "icon": "house"
         },
         {
-          "anchor": "Qazaqşa",
-          "icon": "language",
-          "href": "/kk/index"
+          "anchor": "Help Center",
+          "icon": "house",
+          "href": "/"
         }
       ]
     },
@@ -196,6 +196,93 @@
                   "en/about/how-it-works",
                   "en/about/supported-countries",
                   "en/about/contact-support"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "uz",
+        "tabs": [
+          {
+            "tab": "Анықтамалық орталық",
+            "groups": [
+              {
+                "group": "Бастау",
+                "pages": [
+                  "uz/index",
+                  "uz/getting-started/what-is-ebanano",
+                  "uz/getting-started/compatible-devices",
+                  "uz/getting-started/choosing-a-plan",
+                  "uz/getting-started/first-purchase"
+                ]
+              },
+              {
+                "group": "Орнату және белсендіру",
+                "pages": [
+                  "uz/installation/overview",
+                  "uz/installation/ios",
+                  "uz/installation/android",
+                  "uz/installation/activation"
+                ]
+              },
+              {
+                "group": "eSIM пайдалану",
+                "pages": [
+                  "uz/using-esim/managing-data",
+                  "uz/using-esim/switching-networks",
+                  "uz/using-esim/top-up",
+                  "uz/using-esim/multiple-esims"
+                ]
+              },
+              {
+                "group": "Сатып алулар және төлем",
+                "pages": [
+                  "uz/purchases/payment-methods",
+                  "uz/purchases/order-history",
+                  "uz/purchases/refunds",
+                  "uz/purchases/promo-codes"
+                ]
+              },
+              {
+                "group": "Ақаулықтарды жою",
+                "pages": [
+                  "uz/troubleshooting/esim-not-working",
+                  "uz/troubleshooting/no-data-connection",
+                  "uz/troubleshooting/activation-failed",
+                  "uz/troubleshooting/device-compatibility"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Аккаунт және бонустар",
+            "groups": [
+              {
+                "group": "Аккаунтыңыз",
+                "pages": [
+                  "uz/account/create-account",
+                  "uz/account/profile-settings",
+                  "uz/account/security",
+                  "uz/account/notifications"
+                ]
+              },
+              {
+                "group": "Bananos және адалдық",
+                "pages": [
+                  "uz/bananos/what-are-bananos",
+                  "uz/bananos/earning-bananos",
+                  "uz/bananos/redeeming-bananos",
+                  "uz/bananos/referral-program"
+                ]
+              },
+              {
+                "group": "eBanano туралы",
+                "pages": [
+                  "uz/about/how-it-works",
+                  "uz/about/supported-countries",
+                  "uz/about/contact-support"
                 ]
               }
             ]
