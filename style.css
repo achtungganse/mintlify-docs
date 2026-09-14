@@ -1,4 +1,6 @@
-/* Пункт "Қазақша" в дропдауне переключателя языков */
+/* === Переименование "O'zbekcha" → "Қазақша" === */
+
+/* В выпадающем списке */
 #localization-select-item-uz p {
   position: relative;
   color: transparent !important;
@@ -18,17 +20,30 @@
   color: #d1d5db;
 }
 
-/* Триггер (свёрнутый селект) когда выбран казахский */
-html[lang="uz"] #localization-select-trigger span.truncate {
+/* В кнопке-триггере (по умолчанию показываем "Қазақша") */
+#localization-select-trigger span.truncate {
   position: relative;
   color: transparent !important;
 }
-html[lang="uz"] #localization-select-trigger span.truncate::before {
+#localization-select-trigger span.truncate::before {
   content: "Қазақша";
   position: absolute;
   inset: 0;
-  color: inherit;
+  color: #1f2937;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
+}
+.dark #localization-select-trigger span.truncate::before {
+  color: #d1d5db;
+}
+
+/* Возврат оригинального названия для русского и английского */
+html[lang="ru"] #localization-select-trigger span.truncate,
+html[lang="en"] #localization-select-trigger span.truncate {
+  color: inherit !important;
+}
+html[lang="ru"] #localization-select-trigger span.truncate::before,
+html[lang="en"] #localization-select-trigger span.truncate::before {
+  content: none;
 }
