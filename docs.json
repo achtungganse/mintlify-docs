@@ -12,20 +12,6 @@
     "dark": "/images/app_icon.svg"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Help Center",
-          "href": "/",
-          "icon": "house"
-        },
-        {
-          "anchor": "Help Center",
-          "icon": "house",
-          "href": "/"
-        }
-      ]
-    },
     "languages": [
       {
         "language": "ru",
