@@ -1,20 +1,33 @@
-/* Скрыть оригинальный текст O'zbekcha в дропдауне */
+/* Пункт в дропдауне */
 #localization-select-item-uz p {
-  font-size: 0 !important;
+  color: transparent !important;
+  position: relative;
+  text-align: left !important;
 }
 #localization-select-item-uz p::after {
   content: "Қазақша";
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: initial;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
 
-/* Скрыть текст в триггере, когда выбран uz */
+/* Триггер когда выбран uz */
 html[lang="uz"] #localization-select-trigger span.truncate {
-  font-size: 0 !important;
+  color: transparent !important;
+  position: relative;
 }
 html[lang="uz"] #localization-select-trigger span.truncate::after {
   content: "Қазақша";
-  font-size: 0.875rem;
-  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: initial;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
+
