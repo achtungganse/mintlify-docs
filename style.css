@@ -1,0 +1,8 @@
+#localization-select-item-uz > * { font-size: 0 !important; }
+#localization-select-item-uz::after {
+  content: "Қазақша";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: inline-block;
+}
+html[lang="uz"*
