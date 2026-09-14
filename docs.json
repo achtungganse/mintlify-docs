@@ -7,6 +7,9 @@
     "light": "#ffffff",
     "dark": "#F0F3FB"
   },
+  "integrations": {
+  "scripts": ["/translations.js"]
+},
   "favicon": {
     "light": "/images/app_icon.svg",
     "dark": "/images/app_icon.svg"
