@@ -1,8 +1,20 @@
-#localization-select-item-uz > * { font-size: 0 !important; }
-#localization-select-item-uz::after {
+/* Скрыть оригинальный текст O'zbekcha в дропдауне */
+#localization-select-item-uz p {
+  font-size: 0 !important;
+}
+#localization-select-item-uz p::after {
   content: "Қазақша";
   font-size: 0.875rem;
   line-height: 1.25rem;
-  display: inline-block;
+  font-weight: 500;
 }
-html[lang="uz"*
+
+/* Скрыть текст в триггере, когда выбран uz */
+html[lang="uz"] #localization-select-trigger span.truncate {
+  font-size: 0 !important;
+}
+html[lang="uz"] #localization-select-trigger span.truncate::after {
+  content: "Қазақша";
+  font-size: 0.875rem;
+  font-weight: 500;
+}
