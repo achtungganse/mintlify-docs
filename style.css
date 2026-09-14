@@ -1,33 +1,34 @@
-/* Пункт в дропдауне */
+/* Пункт "Қазақша" в дропдауне переключателя языков */
 #localization-select-item-uz p {
-  color: transparent !important;
   position: relative;
+  color: transparent !important;
   text-align: left !important;
 }
-#localization-select-item-uz p::after {
+#localization-select-item-uz p::before {
   content: "Қазақша";
   position: absolute;
-  left: 0;
-  top: 0;
-  color: initial;
+  inset: 0;
+  color: #1f2937;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
+  text-align: left;
+}
+.dark #localization-select-item-uz p::before {
+  color: #d1d5db;
 }
 
-/* Триггер когда выбран uz — скрываем оригинал сразу */
+/* Триггер (свёрнутый селект) когда выбран казахский */
 html[lang="uz"] #localization-select-trigger span.truncate {
-  visibility: hidden;
   position: relative;
+  color: transparent !important;
 }
-html[lang="uz"] #localization-select-trigger span.truncate::after {
+html[lang="uz"] #localization-select-trigger span.truncate::before {
   content: "Қазақша";
-  visibility: visible;
   position: absolute;
-  left: 0;
-  top: 0;
+  inset: 0;
+  color: inherit;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
-  color: inherit;
 }
