@@ -102,9 +102,13 @@
             "group": "Аккаунт",
             "pages": [
               "account/create-account",
+              "account/sign-in",
+              "account/reset-password",
               "account/profile-settings",
+              "account/orders-and-esims",
+              "account/notifications",
               "account/security",
-              "account/notifications"
+              "account/delete-account"
             ]
           },
           {
@@ -214,9 +218,13 @@
             "group": "Account",
             "pages": [
               "en/account/create-account",
+              "en/account/sign-in",
+              "en/account/reset-password",
               "en/account/profile-settings",
+              "en/account/orders-and-esims",
+              "en/account/notifications",
               "en/account/security",
-              "en/account/notifications"
+              "en/account/delete-account"
             ]
           },
           {
@@ -326,9 +334,13 @@
             "group": "Аккаунт",
             "pages": [
               "uz/account/create-account",
+              "uz/account/sign-in",
+              "uz/account/reset-password",
               "uz/account/profile-settings",
+              "uz/account/orders-and-esims",
+              "uz/account/notifications",
               "uz/account/security",
-              "uz/account/notifications"
+              "uz/account/delete-account"
             ]
           },
           {
