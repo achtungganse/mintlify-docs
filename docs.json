@@ -233,7 +233,11 @@
               "en/bananos/what-are-bananos",
               "en/bananos/earning-bananos",
               "en/bananos/redeeming-bananos",
-              "en/bananos/referral-program"
+              "en/bananos/loyalty-levels",
+              "en/bananos/not-credited",
+              "en/bananos/referral-program",
+              "en/bananos/invite-friend",
+              "en/bananos/referral-not-credited"
             ]
           },
           {
@@ -349,7 +353,11 @@
               "uz/bananos/what-are-bananos",
               "uz/bananos/earning-bananos",
               "uz/bananos/redeeming-bananos",
-              "uz/bananos/referral-program"
+              "uz/bananos/loyalty-levels",
+              "uz/bananos/not-credited",
+              "uz/bananos/referral-program",
+              "uz/bananos/invite-friend",
+              "uz/bananos/referral-not-credited"
             ]
           },
           {
