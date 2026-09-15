@@ -40,9 +40,15 @@
             "group": "Установка",
             "pages": [
               "installation/overview",
+              "installation/when-to-install",
               "installation/ios",
               "installation/android",
-              "installation/activation"
+              "installation/qr-on-same-phone",
+              "installation/manual",
+              "installation/activation",
+              "installation/data-roaming",
+              "installation/select-for-data",
+              "installation/apn-setup"
             ]
           },
           {
@@ -123,9 +129,15 @@
             "group": "Installation",
             "pages": [
               "en/installation/overview",
+              "en/installation/when-to-install",
               "en/installation/ios",
               "en/installation/android",
-              "en/installation/activation"
+              "en/installation/qr-on-same-phone",
+              "en/installation/manual",
+              "en/installation/activation",
+              "en/installation/data-roaming",
+              "en/installation/select-for-data",
+              "en/installation/apn-setup"
             ]
           },
           {
@@ -206,9 +218,15 @@
             "group": "Орнату",
             "pages": [
               "uz/installation/overview",
+              "uz/installation/when-to-install",
               "uz/installation/ios",
               "uz/installation/android",
-              "uz/installation/activation"
+              "uz/installation/qr-on-same-phone",
+              "uz/installation/manual",
+              "uz/installation/activation",
+              "uz/installation/data-roaming",
+              "uz/installation/select-for-data",
+              "uz/installation/apn-setup"
             ]
           },
           {
