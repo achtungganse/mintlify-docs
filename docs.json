@@ -67,9 +67,17 @@
             "group": "Покупки и возвраты",
             "pages": [
               "purchases/payment-methods",
+              "purchases/currency",
+              "purchases/payment-failed",
+              "purchases/payment-pending",
+              "purchases/charged-no-esim",
               "purchases/order-history",
+              "purchases/promo-codes",
+              "purchases/cancel-order",
               "purchases/refunds",
-              "purchases/promo-codes"
+              "purchases/request-refund",
+              "purchases/refund-time",
+              "purchases/double-charge"
             ]
           },
           {
@@ -162,9 +170,17 @@
             "group": "Purchases & refunds",
             "pages": [
               "en/purchases/payment-methods",
+              "en/purchases/currency",
+              "en/purchases/payment-failed",
+              "en/purchases/payment-pending",
+              "en/purchases/charged-no-esim",
               "en/purchases/order-history",
+              "en/purchases/promo-codes",
+              "en/purchases/cancel-order",
               "en/purchases/refunds",
-              "en/purchases/promo-codes"
+              "en/purchases/request-refund",
+              "en/purchases/refund-time",
+              "en/purchases/double-charge"
             ]
           },
           {
@@ -257,9 +273,17 @@
             "group": "Сатып алу және қайтару",
             "pages": [
               "uz/purchases/payment-methods",
+              "uz/purchases/currency",
+              "uz/purchases/payment-failed",
+              "uz/purchases/payment-pending",
+              "uz/purchases/charged-no-esim",
               "uz/purchases/order-history",
+              "uz/purchases/promo-codes",
+              "uz/purchases/cancel-order",
               "uz/purchases/refunds",
-              "uz/purchases/promo-codes"
+              "uz/purchases/request-refund",
+              "uz/purchases/refund-time",
+              "uz/purchases/double-charge"
             ]
           },
           {
