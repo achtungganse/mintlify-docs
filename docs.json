@@ -25,13 +25,19 @@
             "pages": [
               "index",
               "getting-started/what-is-ebanano",
+              "getting-started/what-is-esim",
               "getting-started/compatible-devices",
+              "getting-started/check-carrier-lock",
               "getting-started/choosing-a-plan",
+              "getting-started/whats-included",
+              "getting-started/when-to-buy",
+              "getting-started/when-plan-starts",
+              "getting-started/buy-for-someone-else",
               "getting-started/first-purchase"
             ]
           },
           {
-            "group": "Установка и активация",
+            "group": "Установка",
             "pages": [
               "installation/overview",
               "installation/ios",
@@ -49,7 +55,7 @@
             ]
           },
           {
-            "group": "Покупки и оплата",
+            "group": "Покупки и возвраты",
             "pages": [
               "purchases/payment-methods",
               "purchases/order-history",
@@ -58,7 +64,7 @@
             ]
           },
           {
-            "group": "Устранение неполадок",
+            "group": "Решение проблем",
             "pages": [
               "troubleshooting/esim-not-working",
               "troubleshooting/no-data-connection",
@@ -67,7 +73,7 @@
             ]
           },
           {
-            "group": "Ваш аккаунт",
+            "group": "Аккаунт",
             "pages": [
               "account/create-account",
               "account/profile-settings",
@@ -76,7 +82,7 @@
             ]
           },
           {
-            "group": "Bananos и лояльность",
+            "group": "Bananos и бонусы",
             "pages": [
               "bananos/what-are-bananos",
               "bananos/earning-bananos",
@@ -98,17 +104,23 @@
         "language": "en",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Getting started",
             "pages": [
               "en/index",
               "en/getting-started/what-is-ebanano",
+              "en/getting-started/what-is-esim",
               "en/getting-started/compatible-devices",
+              "en/getting-started/check-carrier-lock",
               "en/getting-started/choosing-a-plan",
+              "en/getting-started/whats-included",
+              "en/getting-started/when-to-buy",
+              "en/getting-started/when-plan-starts",
+              "en/getting-started/buy-for-someone-else",
               "en/getting-started/first-purchase"
             ]
           },
           {
-            "group": "Installation & Activation",
+            "group": "Installation",
             "pages": [
               "en/installation/overview",
               "en/installation/ios",
@@ -117,7 +129,7 @@
             ]
           },
           {
-            "group": "Using Your eSIM",
+            "group": "Using eSIM",
             "pages": [
               "en/using-esim/managing-data",
               "en/using-esim/switching-networks",
@@ -126,7 +138,7 @@
             ]
           },
           {
-            "group": "Purchases & Payments",
+            "group": "Purchases & refunds",
             "pages": [
               "en/purchases/payment-methods",
               "en/purchases/order-history",
@@ -144,7 +156,7 @@
             ]
           },
           {
-            "group": "Your Account",
+            "group": "Account",
             "pages": [
               "en/account/create-account",
               "en/account/profile-settings",
@@ -153,7 +165,7 @@
             ]
           },
           {
-            "group": "Bananos & Loyalty",
+            "group": "Bananos & rewards",
             "pages": [
               "en/bananos/what-are-bananos",
               "en/bananos/earning-bananos",
@@ -179,13 +191,19 @@
             "pages": [
               "uz/index",
               "uz/getting-started/what-is-ebanano",
+              "uz/getting-started/what-is-esim",
               "uz/getting-started/compatible-devices",
+              "uz/getting-started/check-carrier-lock",
               "uz/getting-started/choosing-a-plan",
+              "uz/getting-started/whats-included",
+              "uz/getting-started/when-to-buy",
+              "uz/getting-started/when-plan-starts",
+              "uz/getting-started/buy-for-someone-else",
               "uz/getting-started/first-purchase"
             ]
           },
           {
-            "group": "Орнату және белсендіру",
+            "group": "Орнату",
             "pages": [
               "uz/installation/overview",
               "uz/installation/ios",
@@ -203,7 +221,7 @@
             ]
           },
           {
-            "group": "Сатып алулар және төлем",
+            "group": "Сатып алу және қайтару",
             "pages": [
               "uz/purchases/payment-methods",
               "uz/purchases/order-history",
@@ -212,7 +230,7 @@
             ]
           },
           {
-            "group": "Ақаулықтарды жою",
+            "group": "Мәселелерді шешу",
             "pages": [
               "uz/troubleshooting/esim-not-working",
               "uz/troubleshooting/no-data-connection",
@@ -221,7 +239,7 @@
             ]
           },
           {
-            "group": "Аккаунтыңыз",
+            "group": "Аккаунт",
             "pages": [
               "uz/account/create-account",
               "uz/account/profile-settings",
@@ -230,7 +248,7 @@
             ]
           },
           {
-            "group": "Bananos және адалдық",
+            "group": "Bananos және бонустар",
             "pages": [
               "uz/bananos/what-are-bananos",
               "uz/bananos/earning-bananos",
