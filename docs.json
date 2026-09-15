@@ -19,261 +19,231 @@
       {
         "language": "ru",
         "default": true,
-        "tabs": [
+        "groups": [
           {
-            "tab": "Справочный центр",
-            "groups": [
-              {
-                "group": "Начало работы",
-                "pages": [
-                  "index",
-                  "getting-started/what-is-ebanano",
-                  "getting-started/compatible-devices",
-                  "getting-started/choosing-a-plan",
-                  "getting-started/first-purchase"
-                ]
-              },
-              {
-                "group": "Установка и активация",
-                "pages": [
-                  "installation/overview",
-                  "installation/ios",
-                  "installation/android",
-                  "installation/activation"
-                ]
-              },
-              {
-                "group": "Использование eSIM",
-                "pages": [
-                  "using-esim/managing-data",
-                  "using-esim/switching-networks",
-                  "using-esim/top-up",
-                  "using-esim/multiple-esims"
-                ]
-              },
-              {
-                "group": "Покупки и оплата",
-                "pages": [
-                  "purchases/payment-methods",
-                  "purchases/order-history",
-                  "purchases/refunds",
-                  "purchases/promo-codes"
-                ]
-              },
-              {
-                "group": "Устранение неполадок",
-                "pages": [
-                  "troubleshooting/esim-not-working",
-                  "troubleshooting/no-data-connection",
-                  "troubleshooting/activation-failed",
-                  "troubleshooting/device-compatibility"
-                ]
-              }
+            "group": "Начало работы",
+            "pages": [
+              "index",
+              "getting-started/what-is-ebanano",
+              "getting-started/compatible-devices",
+              "getting-started/choosing-a-plan",
+              "getting-started/first-purchase"
             ]
           },
           {
-            "tab": "Аккаунт и бонусы",
-            "groups": [
-              {
-                "group": "Ваш аккаунт",
-                "pages": [
-                  "account/create-account",
-                  "account/profile-settings",
-                  "account/security",
-                  "account/notifications"
-                ]
-              },
-              {
-                "group": "Bananos и лояльность",
-                "pages": [
-                  "bananos/what-are-bananos",
-                  "bananos/earning-bananos",
-                  "bananos/redeeming-bananos",
-                  "bananos/referral-program"
-                ]
-              },
-              {
-                "group": "О eBanano",
-                "pages": [
-                  "about/how-it-works",
-                  "about/supported-countries",
-                  "about/contact-support"
-                ]
-              }
+            "group": "Установка и активация",
+            "pages": [
+              "installation/overview",
+              "installation/ios",
+              "installation/android",
+              "installation/activation"
+            ]
+          },
+          {
+            "group": "Использование eSIM",
+            "pages": [
+              "using-esim/managing-data",
+              "using-esim/switching-networks",
+              "using-esim/top-up",
+              "using-esim/multiple-esims"
+            ]
+          },
+          {
+            "group": "Покупки и оплата",
+            "pages": [
+              "purchases/payment-methods",
+              "purchases/order-history",
+              "purchases/refunds",
+              "purchases/promo-codes"
+            ]
+          },
+          {
+            "group": "Устранение неполадок",
+            "pages": [
+              "troubleshooting/esim-not-working",
+              "troubleshooting/no-data-connection",
+              "troubleshooting/activation-failed",
+              "troubleshooting/device-compatibility"
+            ]
+          },
+          {
+            "group": "Ваш аккаунт",
+            "pages": [
+              "account/create-account",
+              "account/profile-settings",
+              "account/security",
+              "account/notifications"
+            ]
+          },
+          {
+            "group": "Bananos и лояльность",
+            "pages": [
+              "bananos/what-are-bananos",
+              "bananos/earning-bananos",
+              "bananos/redeeming-bananos",
+              "bananos/referral-program"
+            ]
+          },
+          {
+            "group": "О eBanano",
+            "pages": [
+              "about/how-it-works",
+              "about/supported-countries",
+              "about/contact-support"
             ]
           }
         ]
       },
       {
         "language": "en",
-        "tabs": [
+        "groups": [
           {
-            "tab": "Help Center",
-            "groups": [
-              {
-                "group": "Getting Started",
-                "pages": [
-                  "en/index",
-                  "en/getting-started/what-is-ebanano",
-                  "en/getting-started/compatible-devices",
-                  "en/getting-started/choosing-a-plan",
-                  "en/getting-started/first-purchase"
-                ]
-              },
-              {
-                "group": "Installation & Activation",
-                "pages": [
-                  "en/installation/overview",
-                  "en/installation/ios",
-                  "en/installation/android",
-                  "en/installation/activation"
-                ]
-              },
-              {
-                "group": "Using Your eSIM",
-                "pages": [
-                  "en/using-esim/managing-data",
-                  "en/using-esim/switching-networks",
-                  "en/using-esim/top-up",
-                  "en/using-esim/multiple-esims"
-                ]
-              },
-              {
-                "group": "Purchases & Payments",
-                "pages": [
-                  "en/purchases/payment-methods",
-                  "en/purchases/order-history",
-                  "en/purchases/refunds",
-                  "en/purchases/promo-codes"
-                ]
-              },
-              {
-                "group": "Troubleshooting",
-                "pages": [
-                  "en/troubleshooting/esim-not-working",
-                  "en/troubleshooting/no-data-connection",
-                  "en/troubleshooting/activation-failed",
-                  "en/troubleshooting/device-compatibility"
-                ]
-              }
+            "group": "Getting Started",
+            "pages": [
+              "en/index",
+              "en/getting-started/what-is-ebanano",
+              "en/getting-started/compatible-devices",
+              "en/getting-started/choosing-a-plan",
+              "en/getting-started/first-purchase"
             ]
           },
           {
-            "tab": "Account & Rewards",
-            "groups": [
-              {
-                "group": "Your Account",
-                "pages": [
-                  "en/account/create-account",
-                  "en/account/profile-settings",
-                  "en/account/security",
-                  "en/account/notifications"
-                ]
-              },
-              {
-                "group": "Bananos & Loyalty",
-                "pages": [
-                  "en/bananos/what-are-bananos",
-                  "en/bananos/earning-bananos",
-                  "en/bananos/redeeming-bananos",
-                  "en/bananos/referral-program"
-                ]
-              },
-              {
-                "group": "About eBanano",
-                "pages": [
-                  "en/about/how-it-works",
-                  "en/about/supported-countries",
-                  "en/about/contact-support"
-                ]
-              }
+            "group": "Installation & Activation",
+            "pages": [
+              "en/installation/overview",
+              "en/installation/ios",
+              "en/installation/android",
+              "en/installation/activation"
+            ]
+          },
+          {
+            "group": "Using Your eSIM",
+            "pages": [
+              "en/using-esim/managing-data",
+              "en/using-esim/switching-networks",
+              "en/using-esim/top-up",
+              "en/using-esim/multiple-esims"
+            ]
+          },
+          {
+            "group": "Purchases & Payments",
+            "pages": [
+              "en/purchases/payment-methods",
+              "en/purchases/order-history",
+              "en/purchases/refunds",
+              "en/purchases/promo-codes"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "en/troubleshooting/esim-not-working",
+              "en/troubleshooting/no-data-connection",
+              "en/troubleshooting/activation-failed",
+              "en/troubleshooting/device-compatibility"
+            ]
+          },
+          {
+            "group": "Your Account",
+            "pages": [
+              "en/account/create-account",
+              "en/account/profile-settings",
+              "en/account/security",
+              "en/account/notifications"
+            ]
+          },
+          {
+            "group": "Bananos & Loyalty",
+            "pages": [
+              "en/bananos/what-are-bananos",
+              "en/bananos/earning-bananos",
+              "en/bananos/redeeming-bananos",
+              "en/bananos/referral-program"
+            ]
+          },
+          {
+            "group": "About eBanano",
+            "pages": [
+              "en/about/how-it-works",
+              "en/about/supported-countries",
+              "en/about/contact-support"
             ]
           }
         ]
       },
       {
         "language": "uz",
-        "tabs": [
+        "groups": [
           {
-            "tab": "Анықтамалық орталық",
-            "groups": [
-              {
-                "group": "Бастау",
-                "pages": [
-                  "uz/index",
-                  "uz/getting-started/what-is-ebanano",
-                  "uz/getting-started/compatible-devices",
-                  "uz/getting-started/choosing-a-plan",
-                  "uz/getting-started/first-purchase"
-                ]
-              },
-              {
-                "group": "Орнату және белсендіру",
-                "pages": [
-                  "uz/installation/overview",
-                  "uz/installation/ios",
-                  "uz/installation/android",
-                  "uz/installation/activation"
-                ]
-              },
-              {
-                "group": "eSIM пайдалану",
-                "pages": [
-                  "uz/using-esim/managing-data",
-                  "uz/using-esim/switching-networks",
-                  "uz/using-esim/top-up",
-                  "uz/using-esim/multiple-esims"
-                ]
-              },
-              {
-                "group": "Сатып алулар және төлем",
-                "pages": [
-                  "uz/purchases/payment-methods",
-                  "uz/purchases/order-history",
-                  "uz/purchases/refunds",
-                  "uz/purchases/promo-codes"
-                ]
-              },
-              {
-                "group": "Ақаулықтарды жою",
-                "pages": [
-                  "uz/troubleshooting/esim-not-working",
-                  "uz/troubleshooting/no-data-connection",
-                  "uz/troubleshooting/activation-failed",
-                  "uz/troubleshooting/device-compatibility"
-                ]
-              }
+            "group": "Бастау",
+            "pages": [
+              "uz/index",
+              "uz/getting-started/what-is-ebanano",
+              "uz/getting-started/compatible-devices",
+              "uz/getting-started/choosing-a-plan",
+              "uz/getting-started/first-purchase"
             ]
           },
           {
-            "tab": "Аккаунт және бонустар",
-            "groups": [
-              {
-                "group": "Аккаунтыңыз",
-                "pages": [
-                  "uz/account/create-account",
-                  "uz/account/profile-settings",
-                  "uz/account/security",
-                  "uz/account/notifications"
-                ]
-              },
-              {
-                "group": "Bananos және адалдық",
-                "pages": [
-                  "uz/bananos/what-are-bananos",
-                  "uz/bananos/earning-bananos",
-                  "uz/bananos/redeeming-bananos",
-                  "uz/bananos/referral-program"
-                ]
-              },
-              {
-                "group": "eBanano туралы",
-                "pages": [
-                  "uz/about/how-it-works",
-                  "uz/about/supported-countries",
-                  "uz/about/contact-support"
-                ]
-              }
+            "group": "Орнату және белсендіру",
+            "pages": [
+              "uz/installation/overview",
+              "uz/installation/ios",
+              "uz/installation/android",
+              "uz/installation/activation"
+            ]
+          },
+          {
+            "group": "eSIM пайдалану",
+            "pages": [
+              "uz/using-esim/managing-data",
+              "uz/using-esim/switching-networks",
+              "uz/using-esim/top-up",
+              "uz/using-esim/multiple-esims"
+            ]
+          },
+          {
+            "group": "Сатып алулар және төлем",
+            "pages": [
+              "uz/purchases/payment-methods",
+              "uz/purchases/order-history",
+              "uz/purchases/refunds",
+              "uz/purchases/promo-codes"
+            ]
+          },
+          {
+            "group": "Ақаулықтарды жою",
+            "pages": [
+              "uz/troubleshooting/esim-not-working",
+              "uz/troubleshooting/no-data-connection",
+              "uz/troubleshooting/activation-failed",
+              "uz/troubleshooting/device-compatibility"
+            ]
+          },
+          {
+            "group": "Аккаунтыңыз",
+            "pages": [
+              "uz/account/create-account",
+              "uz/account/profile-settings",
+              "uz/account/security",
+              "uz/account/notifications"
+            ]
+          },
+          {
+            "group": "Bananos және адалдық",
+            "pages": [
+              "uz/bananos/what-are-bananos",
+              "uz/bananos/earning-bananos",
+              "uz/bananos/redeeming-bananos",
+              "uz/bananos/referral-program"
+            ]
+          },
+          {
+            "group": "eBanano туралы",
+            "pages": [
+              "uz/about/how-it-works",
+              "uz/about/supported-countries",
+              "uz/about/contact-support"
             ]
           }
         ]
