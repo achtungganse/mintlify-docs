@@ -83,10 +83,19 @@
           {
             "group": "Решение проблем",
             "pages": [
-              "troubleshooting/esim-not-working",
-              "troubleshooting/no-data-connection",
+              "troubleshooting/install-failed",
+              "troubleshooting/qr-not-working",
               "troubleshooting/activation-failed",
-              "troubleshooting/device-compatibility"
+              "troubleshooting/esim-not-working",
+              "troubleshooting/no-mobile-network",
+              "troubleshooting/no-data-connection",
+              "troubleshooting/slow-internet",
+              "troubleshooting/apn-not-working",
+              "troubleshooting/calls-not-working",
+              "troubleshooting/sms-not-working",
+              "troubleshooting/hotspot-not-working",
+              "troubleshooting/deleted-esim",
+              "troubleshooting/wrong-device"
             ]
           },
           {
@@ -186,10 +195,19 @@
           {
             "group": "Troubleshooting",
             "pages": [
-              "en/troubleshooting/esim-not-working",
-              "en/troubleshooting/no-data-connection",
+              "en/troubleshooting/install-failed",
+              "en/troubleshooting/qr-not-working",
               "en/troubleshooting/activation-failed",
-              "en/troubleshooting/device-compatibility"
+              "en/troubleshooting/esim-not-working",
+              "en/troubleshooting/no-mobile-network",
+              "en/troubleshooting/no-data-connection",
+              "en/troubleshooting/slow-internet",
+              "en/troubleshooting/apn-not-working",
+              "en/troubleshooting/calls-not-working",
+              "en/troubleshooting/sms-not-working",
+              "en/troubleshooting/hotspot-not-working",
+              "en/troubleshooting/deleted-esim",
+              "en/troubleshooting/wrong-device"
             ]
           },
           {
@@ -289,10 +307,19 @@
           {
             "group": "Мәселелерді шешу",
             "pages": [
-              "uz/troubleshooting/esim-not-working",
-              "uz/troubleshooting/no-data-connection",
+              "uz/troubleshooting/install-failed",
+              "uz/troubleshooting/qr-not-working",
               "uz/troubleshooting/activation-failed",
-              "uz/troubleshooting/device-compatibility"
+              "uz/troubleshooting/esim-not-working",
+              "uz/troubleshooting/no-mobile-network",
+              "uz/troubleshooting/no-data-connection",
+              "uz/troubleshooting/slow-internet",
+              "uz/troubleshooting/apn-not-working",
+              "uz/troubleshooting/calls-not-working",
+              "uz/troubleshooting/sms-not-working",
+              "uz/troubleshooting/hotspot-not-working",
+              "uz/troubleshooting/deleted-esim",
+              "uz/troubleshooting/wrong-device"
             ]
           },
           {
