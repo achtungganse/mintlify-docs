@@ -117,7 +117,11 @@
               "bananos/what-are-bananos",
               "bananos/earning-bananos",
               "bananos/redeeming-bananos",
-              "bananos/referral-program"
+              "bananos/loyalty-levels",
+              "bananos/not-credited",
+              "bananos/referral-program",
+              "bananos/invite-friend",
+              "bananos/referral-not-credited"
             ]
           },
           {
