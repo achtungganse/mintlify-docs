@@ -20,7 +20,6 @@
           {
             "group": "Начало работы",
             "pages": [
-              "index",
               "getting-started/what-is-ebanano",
               "getting-started/what-is-esim",
               "getting-started/compatible-devices",
