@@ -35,7 +35,6 @@
             "group": "Установка",
             "pages": [
               "installation/overview",
-              "installation/when-to-install",
               "installation/ios",
               "installation/android",
               "installation/qr-on-same-phone",
