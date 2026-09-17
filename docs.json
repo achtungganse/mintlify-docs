@@ -26,7 +26,6 @@
               "getting-started/check-carrier-lock",
               "getting-started/choosing-a-plan",
               "getting-started/whats-included",
-              "getting-started/when-to-buy",
               "getting-started/when-plan-starts",
               "getting-started/buy-for-someone-else"
             ]
@@ -38,26 +37,17 @@
               "installation/ios",
               "installation/android",
               "installation/qr-on-same-phone",
-              "installation/manual",
-              "installation/activation",
-              "installation/data-roaming",
-              "installation/select-for-data",
-              "installation/apn-setup"
+              "installation/manual"
             ]
           },
           {
             "group": "Использование eSIM",
             "pages": [
               "using-esim/connect-after-arrival",
-              "using-esim/use-with-primary-sim",
+              "using-esim/data-roaming",
               "using-esim/switching-networks",
               "using-esim/managing-data",
-              "using-esim/top-up",
-              "using-esim/calls-and-sms",
-              "using-esim/hotspot",
-              "using-esim/multiple-esims",
-              "using-esim/one-esim-many-countries",
-              "using-esim/after-trip"
+              "using-esim/multiple-esims"
             ]
           },
           {
@@ -65,32 +55,21 @@
             "pages": [
               "purchases/payment-methods",
               "purchases/currency",
-              "purchases/payment-failed",
-              "purchases/payment-pending",
-              "purchases/charged-no-esim",
-              "purchases/order-history",
               "purchases/promo-codes",
-              "purchases/cancel-order",
-              "purchases/refunds",
-              "purchases/request-refund",
-              "purchases/refund-time",
-              "purchases/double-charge"
+              "purchases/order-history",
+              "purchases/payment-failed",
+              "purchases/charged-no-esim",
+              "purchases/refunds"
             ]
           },
           {
             "group": "Решение проблем",
             "pages": [
               "troubleshooting/install-failed",
-              "troubleshooting/qr-not-working",
               "troubleshooting/activation-failed",
               "troubleshooting/esim-not-working",
-              "troubleshooting/no-mobile-network",
               "troubleshooting/no-data-connection",
               "troubleshooting/slow-internet",
-              "troubleshooting/apn-not-working",
-              "troubleshooting/calls-not-working",
-              "troubleshooting/sms-not-working",
-              "troubleshooting/hotspot-not-working",
               "troubleshooting/deleted-esim",
               "troubleshooting/wrong-device"
             ]
@@ -99,10 +78,8 @@
             "group": "Аккаунт",
             "pages": [
               "account/create-account",
-              "account/sign-in",
               "account/reset-password",
               "account/profile-settings",
-              "account/orders-and-esims",
               "account/notifications",
               "account/security",
               "account/delete-account"
@@ -124,7 +101,6 @@
           {
             "group": "О eBanano",
             "pages": [
-              "about/how-it-works",
               "about/supported-countries",
               "about/contact-support"
             ]
@@ -144,40 +120,28 @@
               "en/getting-started/check-carrier-lock",
               "en/getting-started/choosing-a-plan",
               "en/getting-started/whats-included",
-              "en/getting-started/when-to-buy",
               "en/getting-started/when-plan-starts",
-              "en/getting-started/buy-for-someone-else",
-              "en/getting-started/first-purchase"
+              "en/getting-started/buy-for-someone-else"
             ]
           },
           {
             "group": "Installation",
             "pages": [
               "en/installation/overview",
-              "en/installation/when-to-install",
               "en/installation/ios",
               "en/installation/android",
               "en/installation/qr-on-same-phone",
-              "en/installation/manual",
-              "en/installation/activation",
-              "en/installation/data-roaming",
-              "en/installation/select-for-data",
-              "en/installation/apn-setup"
+              "en/installation/manual"
             ]
           },
           {
             "group": "Using eSIM",
             "pages": [
               "en/using-esim/connect-after-arrival",
-              "en/using-esim/use-with-primary-sim",
+              "en/using-esim/data-roaming",
               "en/using-esim/switching-networks",
               "en/using-esim/managing-data",
-              "en/using-esim/top-up",
-              "en/using-esim/calls-and-sms",
-              "en/using-esim/hotspot",
-              "en/using-esim/multiple-esims",
-              "en/using-esim/one-esim-many-countries",
-              "en/using-esim/after-trip"
+              "en/using-esim/multiple-esims"
             ]
           },
           {
@@ -185,32 +149,21 @@
             "pages": [
               "en/purchases/payment-methods",
               "en/purchases/currency",
-              "en/purchases/payment-failed",
-              "en/purchases/payment-pending",
-              "en/purchases/charged-no-esim",
-              "en/purchases/order-history",
               "en/purchases/promo-codes",
-              "en/purchases/cancel-order",
-              "en/purchases/refunds",
-              "en/purchases/request-refund",
-              "en/purchases/refund-time",
-              "en/purchases/double-charge"
+              "en/purchases/order-history",
+              "en/purchases/payment-failed",
+              "en/purchases/charged-no-esim",
+              "en/purchases/refunds"
             ]
           },
           {
             "group": "Troubleshooting",
             "pages": [
               "en/troubleshooting/install-failed",
-              "en/troubleshooting/qr-not-working",
               "en/troubleshooting/activation-failed",
               "en/troubleshooting/esim-not-working",
-              "en/troubleshooting/no-mobile-network",
               "en/troubleshooting/no-data-connection",
               "en/troubleshooting/slow-internet",
-              "en/troubleshooting/apn-not-working",
-              "en/troubleshooting/calls-not-working",
-              "en/troubleshooting/sms-not-working",
-              "en/troubleshooting/hotspot-not-working",
               "en/troubleshooting/deleted-esim",
               "en/troubleshooting/wrong-device"
             ]
@@ -219,10 +172,8 @@
             "group": "Account",
             "pages": [
               "en/account/create-account",
-              "en/account/sign-in",
               "en/account/reset-password",
               "en/account/profile-settings",
-              "en/account/orders-and-esims",
               "en/account/notifications",
               "en/account/security",
               "en/account/delete-account"
@@ -244,7 +195,6 @@
           {
             "group": "About eBanano",
             "pages": [
-              "en/about/how-it-works",
               "en/about/supported-countries",
               "en/about/contact-support"
             ]
@@ -264,40 +214,28 @@
               "uz/getting-started/check-carrier-lock",
               "uz/getting-started/choosing-a-plan",
               "uz/getting-started/whats-included",
-              "uz/getting-started/when-to-buy",
               "uz/getting-started/when-plan-starts",
-              "uz/getting-started/buy-for-someone-else",
-              "uz/getting-started/first-purchase"
+              "uz/getting-started/buy-for-someone-else"
             ]
           },
           {
             "group": "Орнату",
             "pages": [
               "uz/installation/overview",
-              "uz/installation/when-to-install",
               "uz/installation/ios",
               "uz/installation/android",
               "uz/installation/qr-on-same-phone",
-              "uz/installation/manual",
-              "uz/installation/activation",
-              "uz/installation/data-roaming",
-              "uz/installation/select-for-data",
-              "uz/installation/apn-setup"
+              "uz/installation/manual"
             ]
           },
           {
             "group": "eSIM пайдалану",
             "pages": [
               "uz/using-esim/connect-after-arrival",
-              "uz/using-esim/use-with-primary-sim",
+              "uz/using-esim/data-roaming",
               "uz/using-esim/switching-networks",
               "uz/using-esim/managing-data",
-              "uz/using-esim/top-up",
-              "uz/using-esim/calls-and-sms",
-              "uz/using-esim/hotspot",
-              "uz/using-esim/multiple-esims",
-              "uz/using-esim/one-esim-many-countries",
-              "uz/using-esim/after-trip"
+              "uz/using-esim/multiple-esims"
             ]
           },
           {
@@ -305,32 +243,21 @@
             "pages": [
               "uz/purchases/payment-methods",
               "uz/purchases/currency",
-              "uz/purchases/payment-failed",
-              "uz/purchases/payment-pending",
-              "uz/purchases/charged-no-esim",
-              "uz/purchases/order-history",
               "uz/purchases/promo-codes",
-              "uz/purchases/cancel-order",
-              "uz/purchases/refunds",
-              "uz/purchases/request-refund",
-              "uz/purchases/refund-time",
-              "uz/purchases/double-charge"
+              "uz/purchases/order-history",
+              "uz/purchases/payment-failed",
+              "uz/purchases/charged-no-esim",
+              "uz/purchases/refunds"
             ]
           },
           {
             "group": "Мәселелерді шешу",
             "pages": [
               "uz/troubleshooting/install-failed",
-              "uz/troubleshooting/qr-not-working",
               "uz/troubleshooting/activation-failed",
               "uz/troubleshooting/esim-not-working",
-              "uz/troubleshooting/no-mobile-network",
               "uz/troubleshooting/no-data-connection",
               "uz/troubleshooting/slow-internet",
-              "uz/troubleshooting/apn-not-working",
-              "uz/troubleshooting/calls-not-working",
-              "uz/troubleshooting/sms-not-working",
-              "uz/troubleshooting/hotspot-not-working",
               "uz/troubleshooting/deleted-esim",
               "uz/troubleshooting/wrong-device"
             ]
@@ -339,10 +266,8 @@
             "group": "Аккаунт",
             "pages": [
               "uz/account/create-account",
-              "uz/account/sign-in",
               "uz/account/reset-password",
               "uz/account/profile-settings",
-              "uz/account/orders-and-esims",
               "uz/account/notifications",
               "uz/account/security",
               "uz/account/delete-account"
@@ -364,7 +289,6 @@
           {
             "group": "eBanano туралы",
             "pages": [
-              "uz/about/how-it-works",
               "uz/about/supported-countries",
               "uz/about/contact-support"
             ]
