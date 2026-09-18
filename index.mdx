@@ -2,63 +2,99 @@
 title: "Справочный центр eBanano"
 sidebarTitle: "Главная"
 description: "Всё про eSIM: выбор пакета, установка, подключение, заказы, оплата и помощь в поездке."
+icon: "house"
 ---
 
-Первый раз с eSIM? Начнём с самого начала. Уже купил — покажем, что дальше. А если что-то пошло не так, найдём нужную проверку.
+Первый раз с eSIM? Начнём с самого начала. Уже купил — можно сразу перейти к следующему шагу.
 
-<CardGroup cols={2}>
+## До поездки
+
+<Columns cols={2}>
   <Card
     title="Первый раз с eSIM"
     icon="circle-info"
     href="/getting-started/what-is-ebanano"
+    horizontal
   >
-    Что это вообще такое, как работает eBanano и с чего начать.
+    Что это такое, как работает eBanano и с чего начать.
   </Card>
 
   <Card
     title="Хочу выбрать пакет"
-    icon="map"
+    icon="map-location-dot"
     href="/getting-started/choosing-a-plan"
+    horizontal
   >
-    Посмотрим на маршрут, трафик, срок действия и покрытие.
+    Покрытие, трафик, срок действия и другие условия.
   </Card>
+</Columns>
 
+## eSIM уже куплена
+
+<Columns cols={2}>
   <Card
-    title="Уже купил eSIM"
+    title="Где мой заказ и eSIM"
     icon="receipt"
     href="/purchases/order-history"
+    horizontal
   >
-    Где найти заказ, данные eSIM и что делать дальше.
+    Найти заказ, данные для установки или передать eSIM другому человеку.
   </Card>
 
   <Card
     title="Пора устанавливать"
     icon="sim-card"
     href="/installation/overview"
+    horizontal
   >
-    QR-код, ручная установка, iPhone и Android — всё здесь.
+    QR-код, ручная установка, iPhone и Android.
   </Card>
 
   <Card
     title="Я уже в поездке"
     icon="plane-arrival"
     href="/using-esim/connect-after-arrival"
+    horizontal
   >
-    Что включить после приезда, чтобы появился мобильный интернет.
+    Что включить после приезда, чтобы заработал мобильный интернет.
+  </Card>
+
+  <Card
+    title="Остаток и пополнение"
+    icon="chart-pie"
+    href="/using-esim/managing-data"
+    horizontal
+  >
+    Сколько трафика осталось, когда закончится пакет и можно ли его пополнить.
+  </Card>
+</Columns>
+
+## Что-то пошло не так
+
+<Columns cols={2}>
+  <Card
+    title="eSIM не устанавливается"
+    icon="triangle-exclamation"
+    href="/troubleshooting/install-failed"
+    horizontal
+  >
+    QR не работает, код уже использован или установка оборвалась.
   </Card>
 
   <Card
     title="Интернет не появился"
     icon="signal-slash"
     href="/troubleshooting/esim-not-working"
+    horizontal
   >
-    Посмотрим, есть ли сеть и что проверить дальше.
+    Сначала посмотрим, есть ли сеть, а потом — что проверять дальше.
   </Card>
 
   <Card
     title="С оплатой что-то не так"
-    icon="triangle-exclamation"
+    icon="credit-card"
     href="/purchases/payment-failed"
+    horizontal
   >
     Платёж завис, отклонился или деньги списались без заказа.
   </Card>
@@ -67,27 +103,30 @@ description: "Всё про eSIM: выбор пакета, установка, �
     title="Нужна поддержка"
     icon="headset"
     href="/about/contact-support"
+    horizontal
   >
     Что написать и что приложить, чтобы быстрее перейти к сути.
   </Card>
-</CardGroup>
+</Columns>
 
-## Ещё пригодится
+## Аккаунт и программы
 
 <Columns cols={2}>
-  <Card
-    title="Остаток трафика и пополнение"
-    icon="chart-bar"
-    href="/using-esim/managing-data"
-  >
-    Где посмотреть остаток, срок действия и можно ли пополнить eSIM.
-  </Card>
-
   <Card
     title="Аккаунт eBanano"
     icon="user"
     href="/account/create-account"
+    horizontal
   >
     Вход, восстановление доступа и настройки аккаунта.
+  </Card>
+
+  <Card
+    title="Bananos и приглашения"
+    icon="gift"
+    href="/bananos/loyalty-levels"
+    horizontal
+  >
+    Что уже работает и какие программы пока в разработке.
   </Card>
 </Columns>
