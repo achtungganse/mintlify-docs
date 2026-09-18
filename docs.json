@@ -27,6 +27,15 @@
             ]
           },
           {
+            "group": "Покупка и заказ",
+            "pages": [
+              "purchases/payment-methods",
+              "purchases/order-history",
+              "purchases/payment-failed",
+              "purchases/refunds"
+            ]
+          },
+          {
             "group": "Установка",
             "pages": [
               "installation/overview",
@@ -38,15 +47,6 @@
             "pages": [
               "using-esim/connect-after-arrival",
               "using-esim/switching-networks"
-            ]
-          },
-          {
-            "group": "Покупка и заказ",
-            "pages": [
-              "purchases/payment-methods",
-              "purchases/order-history",
-              "purchases/payment-failed",
-              "purchases/refunds"
             ]
           },
           {
