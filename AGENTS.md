@@ -48,6 +48,9 @@ Short answer → conditions → real cases → exceptions → available user act
 - Prefer user language over technical terminology.
 - Explain a technical term only when it helps the user decide or act.
 - Do not invent product capabilities, support channels, response times, countries, provider behavior, refund guarantees, network guarantees, or payment behavior.
+- Figma is a source of user scenarios and interface states only. Never treat mock text, prices, package conditions, rewards, statuses, or example data from Figma as product facts.
+- Do not copy Figma copy into public documentation unless the wording has been independently approved.
+- Keep provider names and internal supplier terminology out of public Help Center content unless the provider identity is itself user-relevant.
 - When behavior depends on a specific eSIM package or provider, say so explicitly instead of presenting it as universal.
 
 ## Style preferences
