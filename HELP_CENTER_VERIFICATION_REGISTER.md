@@ -1,108 +1,136 @@
 # Help Center — реестр продуктовых фактов для проверки
 
-**Статус:** Open  
+**Статус:** In progress  
 **Дата:** 2026-09-18
 
-Этот файл содержит утверждения, которые влияют на пользовательские инструкции, но не должны публиковаться только потому, что уже встречаются в старых MDX-файлах.
+Обозначения:
 
-## P0 — проверить до переписывания соответствующих статей
+- ✅ подтверждено;
+- 🟡 частично подтверждено / требует детализации;
+- 🔴 отдельное решение ещё не принято;
+- ⏸ намеренно отложено как отдельная продуктовая задача.
 
-### Тарифы и каталог
+Подтверждённые решения подробнее зафиксированы в [HELP_CENTER_PRODUCT_DECISIONS.md](HELP_CENTER_PRODUCT_DECISIONS.md).
 
-- Какие типы пакетов реально существуют в публичном каталоге: fixed / daily / unlimited / другие.
-- Как публично отображается activation rule.
-- Как публично отображается coverage.
-- Есть ли hotspot/tethering как отдельное поле.
-- Есть ли voice/SMS/phone number хотя бы у части будущих предложений.
-- Есть ли FUP и как он представлен пользователю.
-- Есть ли top-up или только покупка нового пакета.
-- Можно ли переиспользовать один eSIM profile с новым package.
+## Тарифы и каталог
 
-### Установка
+- 🟡 Типы пакетов: eSIMAccess имеет fixed, unlimited/FUP, Day Pass и другие provider-specific варианты; публичная нормализация eBanano ещё требует финальной проверки.
+- 🟡 Activation rule: поставщик поддерживает network connection / installation / immediate-after-purchase; нужно подтвердить, как именно это поле показывается в eBanano UI/API.
+- 🟡 Coverage: provider data есть; нужно подтвердить финальное место в UI.
+- 🔴 Hotspot/tethering как отдельное публичное поле.
+- 🟡 Voice/SMS: launch-модель в основном data-oriented, но у eSIMAccess появились prepaid/voice-capable классы; публичный scope eBanano нужно утвердить.
+- 🟡 FUP: существует для части unlimited/day-pass продуктов; нужен канонический mapping в eBanano.
+- ✅ Top-up существует для reloadable products.
+- ✅ eBanano планирует manual top-up и auto-renew при остатке <10% для поддерживаемых продуктов.
+- 🟡 Повторное использование одного profile с top-up возможно для reloadable products; не универсально.
 
-- QR-код одноразовый или правила различаются по provider offer/profile.
-- Какие profiles допускают reinstall.
-- Есть ли self-service reissue/reinstall.
-- Можно ли transfer между устройствами.
-- Какие installation data eBanano реально показывает пользователю.
+## Установка
 
-### Оплата
+- 🟡 QR/reinstall зависит от состояния профиля; eSIMAccess допускает reinstall deleted eSIM на том же устройстве при допустимом состоянии.
+- ✅ Transfer установленной eSIM на другое устройство не поддерживать как пользовательский сценарий.
+- 🔴 Self-service reissue/reinstall UX eBanano.
+- 🟡 Installation data: eSIMAccess отдаёт QR/LPA/manual activation data; нужно подтвердить, что именно покажет eBanano UI.
 
-- Какие способы оплаты реально доступны на первом релизе.
-- Какая currency model используется в checkout.
-- Как выглядит pending/failed/completed для пользователя.
-- Можно ли безопасно повторить declined payment и при каких условиях.
-- Как distinguish authorization hold vs captured charge в support flow.
-- Какое поле/ID пользователь видит для payment/order escalation.
+## Оплата
 
-### Refund / cancellation
+- 🔴 Способы оплаты первого релиза.
+- 🔴 Currency model checkout.
+- 🔴 User-facing pending/failed/completed states.
+- 🔴 Правило повторной попытки declined payment.
+- 🔴 Authorization hold vs captured charge в support flow.
+- 🔴 Какой payment/order ID видит пользователь.
+- 🟡 Auto-renew payment flow: product decision принят, но consent/token/retry/notification/legal details открыты.
 
-- Формальная refund eligibility policy.
-- Влияют ли installation / activation / data usage на eligibility и как.
-- Есть ли cancellation до provisioning/activation.
-- Возвращается ли refund только в original payment method.
-- Есть ли refund to Bananos.
-- Есть ли replacement/reissue вместо refund.
-- Официальные сроки обработки со стороны eBanano/PSP, если их можно обещать.
+## Refund / cancellation
 
-### Bananos
+- 🟡 Общая eBanano policy ранее согласована, но требует сверки с финальными Terms и правом РК перед публикацией.
+- ✅ eSIMAccess позволяет cancel/refund unused + uninstalled eSIM.
+- ✅ После установки automatic provider cancellation недоступен; activated/used cases требуют review.
+- 🟡 14-day voluntary cancellation model eBanano — проверить финальную legal wording.
+- 🟡 Technical defect flow: diagnose → replacement/equivalent solution → refund if unresolved.
+- 🟡 Partial refund только для подтверждённо непредоставленной части — legal review.
+- 🔴 Refund destination/original payment method в eBanano/PSP.
+- ⏸ Refund to Bananos не определять до redesign loyalty.
+- 🔴 Официальные refund processing timelines.
 
-- Что такое 1 Banano в расчётах.
-- Как Bananos начисляются за purchase.
-- Текущие loyalty levels, thresholds и cashback.
-- Что считается progress по уровню.
-- Как refund влияет на Bananos и loyalty progress.
-- Когда purchase reward становится final.
-- Можно ли использовать часть balance.
-- Можно ли применять Bananos вместе с promo code.
-- Есть ли expiry и какая.
-- Что считается activity для expiry.
-- Участвуют ли guest orders.
+## Bananos / loyalty
 
-### Referral
+**⏸ Весь блок выделен в отдельную продуктово-юридическую задачу.**
 
-- Exact referral trigger.
-- Reward inviter.
-- Reward invited user.
-- Reward currency: USD-equivalent/Bananos/etc.
-- Нужен ли новый account.
-- Как referral code/link привязывается к user.
-- Есть ли QR sharing.
-- Лимиты referral program.
-- Refund/cancellation effects.
-- Anti-abuse rules, которые допустимо показывать публично.
+До redesign статьи не должны публиковать старые правила.
 
-### Account
+Нужно разработать заново:
 
-- Текущие поддерживаемые auth methods на релизе.
-- Можно ли менять email.
-- Есть ли account linking между auth methods.
-- Какие notification categories реально существуют.
-- Какие notifications обязательны.
-- Есть ли session management/logout-all.
-- Реальный self-service/support flow удаления аккаунта.
-- Что происходит с orders, eSIM, Bananos при deletion.
-- Какие данные сохраняются по legal/accounting retention.
+- value/conversion unit;
+- cashback model;
+- levels/thresholds;
+- progress rules;
+- redemption;
+- promo stacking;
+- expiry;
+- guest orders;
+- refund effects;
+- налоговую модель;
+- правила клуба привилегий/loyalty program по законодательству РК.
 
-### Support
+Статья №18 до утверждения: **«Программа лояльности находится в разработке».**
 
-- Единственный/основной канал обращения на релизе.
-- Есть ли ticket ID.
-- Куда приходит ответ.
-- SLA, если он утверждён.
-- Можно ли безопасно запрашивать последние 4 цифры карты.
-- Допустимо ли передавать APN/activation identifiers в support form.
-- Какие attachment types доступны.
+## Referral
+
+**⏸ Весь блок выделен в отдельную продуктово-юридическую задачу.**
+
+Нужно разработать заново:
+
+- exact trigger;
+- inviter reward;
+- invited-user reward;
+- currency/reward representation;
+- link/code/QR mechanics;
+- limits;
+- refunds;
+- abuse policy;
+- налоговые/правовые последствия.
+
+Статья №19 до утверждения: **«Реферальная программа находится в разработке».**
+
+## Account
+
+- ✅ Целевые auth methods: email, Apple, Google, Facebook, Telegram.
+- 🟡 В Help Center показывать только реально выпущенные production methods.
+- 🔴 Возможность смены email.
+- 🟡 Account linking архитектурно делается через Keycloak; user-facing behavior нужно подтвердить.
+- 🔴 Notification categories production UI.
+- 🔴 Mandatory vs optional notifications.
+- 🔴 Session management/logout-all UI.
+- ✅ Архитектура account deletion существует: RequestAccountErasure → PENDING_DELETION → anonymization → ANONYMIZED.
+- 🔴 Retention/legal basis deletion.
+- 🔴 Что происходит с orders/financial records.
+- 🔴 Что происходит с active eSIM/activation data.
+- ⏸ Что происходит с Bananos — после redesign loyalty.
+- 🔴 Можно ли отменить deletion request.
+- 🔴 Self-service deletion UI.
+
+## Support
+
+- ✅ Launch channel: email support.
+- 🟡 Форма Help Center может быть frontend для email-support flow; финальный UI подтвердить.
+- 🔴 Ticket ID.
+- ✅ Публичный Help Center не обещает конкретный response SLA.
+- ✅ Внутренне учитывать 10 календарных дней для письменного ответа на претензию потребителя по законодательству/официальным разъяснениям РК.
+- 🔴 Последние 4 цифры карты: допустимость/необходимость в конкретном PSP flow.
+- 🔴 Какие activation identifiers можно передавать через support form.
+- 🔴 Attachment types.
 
 ## Правило закрытия
 
-Каждый пункт закрывается ссылкой на один authoritative source:
+Каждый открытый пункт закрывается ссылкой на authoritative source:
 
-- утверждённая product spec;
-- backend/public API contract;
-- legal policy;
+- закон или финальный legal document;
+- product-owner decision;
+- production backend/public API contract;
+- production design/UI;
 - payment provider contract;
-- design/UI implementation;
-- явно принятое решение product owner.
+- supplier documentation;
+- architecture spec для технического поведения.
 
 Старый Help Center сам по себе authoritative source не является.
