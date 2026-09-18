@@ -56,31 +56,27 @@
             ]
           },
           {
+            "group": "Использование eSIM",
+            "pages": [
+              "using-esim/managing-data",
+              "using-esim/multiple-esims"
+            ]
+          },
+          {
             "group": "Аккаунт",
             "pages": [
-              "account/create-account",
-              "account/reset-password",
-              "account/profile-settings",
-              "account/notifications",
-              "account/security",
-              "account/delete-account"
+              "account/create-account"
             ]
           },
           {
             "group": "Bananos и бонусы",
             "pages": [
-              "bananos/what-are-bananos",
-              "bananos/earning-bananos",
-              "bananos/redeeming-bananos",
               "bananos/loyalty-levels",
-              "bananos/not-credited",
-              "bananos/referral-program",
-              "bananos/invite-friend",
-              "bananos/referral-not-credited"
+              "bananos/referral-program"
             ]
           },
           {
-            "group": "О eBanano",
+            "group": "Помощь",
             "pages": [
               "about/contact-support"
             ]
