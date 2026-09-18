@@ -6,6 +6,7 @@
 - Pages are MDX files with YAML frontmatter.
 - Configuration lives in `docs.json`.
 - The approved Help Center information architecture and editorial rules live in [HELP_CENTER_ARCHITECTURE.md](HELP_CENTER_ARCHITECTURE.md).
+- The mandatory Russian voice and tone live in [HELP_CENTER_VOICE_AND_TONE.md](HELP_CENTER_VOICE_AND_TONE.md). Read it before writing or rewriting user-facing Russian content.
 - Before creating, deleting, merging, or substantially rewriting Help Center pages, read that document first.
 
 ## Product and audience
