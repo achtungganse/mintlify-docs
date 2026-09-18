@@ -7,6 +7,7 @@
 - Configuration lives in `docs.json`.
 - The approved Help Center information architecture and editorial rules live in [HELP_CENTER_ARCHITECTURE.md](HELP_CENTER_ARCHITECTURE.md).
 - The mandatory Russian voice and tone live in [HELP_CENTER_VOICE_AND_TONE.md](HELP_CENTER_VOICE_AND_TONE.md). Read it before writing or rewriting user-facing Russian content.
+- The formatting, component-selection, navigation-tree, and scanability rules live in [HELP_CENTER_FORMATTING_SYSTEM.md](HELP_CENTER_FORMATTING_SYSTEM.md). Use components because they improve comprehension or navigation, never just for decoration.
 - Before creating, deleting, merging, or substantially rewriting Help Center pages, read that document first.
 
 ## Product and audience
