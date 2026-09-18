@@ -30,20 +30,14 @@
             "group": "Установка",
             "pages": [
               "installation/overview",
-              "installation/ios",
-              "installation/android",
-              "installation/qr-on-same-phone",
-              "installation/manual"
+              "troubleshooting/install-failed"
             ]
           },
           {
-            "group": "Использование eSIM",
+            "group": "Подключение в поездке",
             "pages": [
               "using-esim/connect-after-arrival",
-              "using-esim/data-roaming",
-              "using-esim/switching-networks",
-              "using-esim/managing-data",
-              "using-esim/multiple-esims"
+              "using-esim/switching-networks"
             ]
           },
           {
@@ -56,15 +50,9 @@
             ]
           },
           {
-            "group": "Решение проблем",
+            "group": "Если что-то не работает",
             "pages": [
-              "troubleshooting/install-failed",
-              "troubleshooting/activation-failed",
-              "troubleshooting/esim-not-working",
-              "troubleshooting/no-data-connection",
-              "troubleshooting/slow-internet",
-              "troubleshooting/deleted-esim",
-              "troubleshooting/wrong-device"
+              "troubleshooting/esim-not-working"
             ]
           },
           {
