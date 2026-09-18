@@ -21,11 +21,8 @@
             "group": "Начало работы",
             "pages": [
               "getting-started/what-is-ebanano",
-              "getting-started/what-is-esim",
               "getting-started/compatible-devices",
-              "getting-started/check-carrier-lock",
               "getting-started/choosing-a-plan",
-              "getting-started/whats-included",
               "getting-started/when-plan-starts",
               "getting-started/buy-for-someone-else"
             ]
@@ -101,7 +98,6 @@
           {
             "group": "О eBanano",
             "pages": [
-              "about/supported-countries",
               "about/contact-support"
             ]
           }
