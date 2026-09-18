@@ -18,93 +18,58 @@
         "default": true,
         "groups": [
           {
-            "group": "Справочный центр",
-            "root": "index",
-            "icon": "house",
-            "expanded": true,
+            "group": "До поездки",
+            "icon": "suitcase-rolling",
             "pages": [
-              {
-                "group": "До поездки",
-                "icon": "suitcase-rolling",
-                "expanded": true,
-                "pages": [
-                  "getting-started/what-is-ebanano",
-                  "getting-started/compatible-devices",
-                  "getting-started/choosing-a-plan",
-                  "getting-started/when-plan-starts"
-                ]
-              },
-              {
-                "group": "Покупка и заказ",
-                "icon": "receipt",
-                "expanded": true,
-                "pages": [
-                  "purchases/payment-methods",
-                  "purchases/order-history",
-                  {
-                    "group": "Если с заказом что-то не так",
-                    "icon": "triangle-exclamation",
-                    "expanded": true,
-                    "pages": [
-                      "purchases/payment-failed",
-                      "purchases/refunds"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Установка и подключение",
-                "icon": "sim-card",
-                "expanded": true,
-                "pages": [
-                  "installation/overview",
-                  "using-esim/connect-after-arrival",
-                  "using-esim/switching-networks",
-                  {
-                    "group": "Если не получается",
-                    "icon": "signal-slash",
-                    "expanded": true,
-                    "pages": [
-                      "troubleshooting/install-failed",
-                      "troubleshooting/esim-not-working"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Во время и после поездки",
-                "icon": "plane",
-                "expanded": true,
-                "pages": [
-                  "using-esim/managing-data",
-                  "using-esim/multiple-esims"
-                ]
-              },
-              {
-                "group": "Аккаунт и программы",
-                "icon": "user",
-                "expanded": true,
-                "pages": [
-                  "account/create-account",
-                  {
-                    "group": "Bananos",
-                    "icon": "gift",
-                    "expanded": false,
-                    "pages": [
-                      "bananos/loyalty-levels",
-                      "bananos/referral-program"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Помощь",
-                "icon": "headset",
-                "expanded": true,
-                "pages": [
-                  "about/contact-support"
-                ]
-              }
+              "getting-started/what-is-ebanano",
+              "getting-started/compatible-devices",
+              "getting-started/choosing-a-plan",
+              "getting-started/when-plan-starts"
+            ]
+          },
+          {
+            "group": "Покупка и заказ",
+            "icon": "receipt",
+            "pages": [
+              "purchases/payment-methods",
+              "purchases/order-history",
+              "purchases/payment-failed",
+              "purchases/refunds"
+            ]
+          },
+          {
+            "group": "Установка и подключение",
+            "icon": "sim-card",
+            "pages": [
+              "installation/overview",
+              "troubleshooting/install-failed",
+              "using-esim/connect-after-arrival",
+              "using-esim/switching-networks",
+              "troubleshooting/esim-not-working"
+            ]
+          },
+          {
+            "group": "Использование eSIM",
+            "icon": "signal",
+            "pages": [
+              "using-esim/managing-data",
+              "using-esim/multiple-esims"
+            ]
+          },
+          {
+            "group": "Аккаунт и программы",
+            "icon": "user",
+            "pages": [
+              "account/create-account",
+              "bananos/loyalty-levels",
+              "bananos/referral-program"
+            ]
+          },
+          {
+            "group": "Помощь",
+            "icon": "headset",
+            "pages": [
+              "about/contact-support"
             ]
           }
         ]
@@ -333,7 +298,8 @@
   },
   "logo": {
     "light": "/images/Лого.svg",
-    "dark": "/images/Лого.svg"
+    "dark": "/images/Лого.svg",
+    "href": "/"
   },
   "metadata": {
     "timestamp": true
