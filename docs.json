@@ -23,8 +23,7 @@
               "getting-started/what-is-ebanano",
               "getting-started/compatible-devices",
               "getting-started/choosing-a-plan",
-              "getting-started/when-plan-starts",
-              "getting-started/buy-for-someone-else"
+              "getting-started/when-plan-starts"
             ]
           },
           {
@@ -48,14 +47,11 @@
             ]
           },
           {
-            "group": "Покупки и возвраты",
+            "group": "Покупка и заказ",
             "pages": [
               "purchases/payment-methods",
-              "purchases/currency",
-              "purchases/promo-codes",
               "purchases/order-history",
               "purchases/payment-failed",
-              "purchases/charged-no-esim",
               "purchases/refunds"
             ]
           },
