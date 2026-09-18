@@ -10,18 +10,19 @@
 - 🔴 отдельное решение ещё не принято;
 - ⏸ намеренно отложено как отдельная продуктовая задача.
 
-Подтверждённые решения подробнее зафиксированы в [HELP_CENTER_PRODUCT_DECISIONS.md](HELP_CENTER_PRODUCT_DECISIONS.md).
+Подтверждённые решения подробнее зафиксированы в [HELP_CENTER_PRODUCT_DECISIONS.md](HELP_CENTER_PRODUCT_DECISIONS.md). Модель сведений о тарифе: [HELP_CENTER_PACKAGE_DETAILS_MODEL.md](HELP_CENTER_PACKAGE_DETAILS_MODEL.md).
 
 ## Тарифы и каталог
 
 - 🟡 Типы пакетов: eSIMAccess имеет fixed, unlimited/FUP, Day Pass и другие provider-specific варианты; публичная нормализация eBanano ещё требует финальной проверки.
-- 🟡 Activation rule: поставщик поддерживает network connection / installation / immediate-after-purchase; нужно подтвердить, как именно это поле показывается в eBanano UI/API.
-- 🟡 Coverage: provider data есть; нужно подтвердить финальное место в UI.
+- ✅ Activation semantics подтверждены: on_first_network / on_install / immediate. Публичный UI должен показывать правило конкретного offer.
+- ✅ Coverage должен быть доступен в сведениях о пакете; для regional/global — полный список стран, а не только название региона.
 - 🔴 Hotspot/tethering как отдельное публичное поле.
 - 🟡 Voice/SMS: launch-модель в основном data-oriented, но у eSIMAccess появились prepaid/voice-capable классы; публичный scope eBanano нужно утвердить.
-- 🟡 FUP: существует для части unlimited/day-pass продуктов; нужен канонический mapping в eBanano.
+- ✅ FUP должен быть нормализован и показываться до покупки для daily throttle/cutoff: лимит + поведение после лимита + скорость, если известна.
 - ✅ Top-up существует для reloadable products.
-- ✅ eBanano планирует manual top-up и auto-renew при остатке <10% для поддерживаемых продуктов.
+- ✅ Manual top-up: кнопка «Пополнить» открывает каталог совместимых top-up options для конкретной eSIM.
+- ✅ Auto-renew: пользователь заранее выбирает пакет; при остатке <10% используется тот же пакет. Если он стал недоступен, renewal ставится на паузу и пользователь получает уведомление с просьбой выбрать новый план.
 - 🟡 Повторное использование одного profile с top-up возможно для reloadable products; не универсально.
 
 ## Установка
@@ -33,13 +34,13 @@
 
 ## Оплата
 
-- 🔴 Способы оплаты первого релиза.
+- 🟡 PSP выбран: Freedom Pay. Freedom Pay поддерживает Visa/Mastercard, Apple Pay и Google Pay; нужно подтвердить, какие из методов будут включены в production merchant configuration eBanano.
 - 🔴 Currency model checkout.
 - 🔴 User-facing pending/failed/completed states.
 - 🔴 Правило повторной попытки declined payment.
 - 🔴 Authorization hold vs captured charge в support flow.
 - 🔴 Какой payment/order ID видит пользователь.
-- 🟡 Auto-renew payment flow: product decision принят, но consent/token/retry/notification/legal details открыты.
+- 🟡 Auto-renew product flow уточнён; открыты recurring-payment consent, payment token, failed charge/retry, notification wording и legal requirements.
 
 ## Refund / cancellation
 
@@ -108,7 +109,7 @@
 - 🔴 Что происходит с active eSIM/activation data.
 - ⏸ Что происходит с Bananos — после redesign loyalty.
 - 🔴 Можно ли отменить deletion request.
-- 🔴 Self-service deletion UI.
+- ⏸ Account deletion вынесено в отдельную product/legal задачу: HELP_CENTER_ACCOUNT_DELETION_DISCUSSION.md.
 
 ## Support
 
