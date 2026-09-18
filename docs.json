@@ -20,6 +20,7 @@
           {
             "group": "Начало работы",
             "pages": [
+              "index",
               "getting-started/what-is-ebanano",
               "getting-started/compatible-devices",
               "getting-started/choosing-a-plan",
@@ -320,5 +321,119 @@
     "404": {
       "redirect": false
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/getting-started/what-is-esim",
+      "destination": "/getting-started/what-is-ebanano"
+    },
+    {
+      "source": "/getting-started/check-carrier-lock",
+      "destination": "/getting-started/compatible-devices"
+    },
+    {
+      "source": "/getting-started/whats-included",
+      "destination": "/getting-started/choosing-a-plan"
+    },
+    {
+      "source": "/about/supported-countries",
+      "destination": "/getting-started/choosing-a-plan"
+    },
+    {
+      "source": "/getting-started/buy-for-someone-else",
+      "destination": "/purchases/order-history"
+    },
+    {
+      "source": "/purchases/currency",
+      "destination": "/purchases/payment-methods"
+    },
+    {
+      "source": "/purchases/promo-codes",
+      "destination": "/purchases/payment-methods"
+    },
+    {
+      "source": "/purchases/charged-no-esim",
+      "destination": "/purchases/payment-failed"
+    },
+    {
+      "source": "/installation/ios",
+      "destination": "/installation/overview"
+    },
+    {
+      "source": "/installation/android",
+      "destination": "/installation/overview"
+    },
+    {
+      "source": "/installation/qr-on-same-phone",
+      "destination": "/installation/overview"
+    },
+    {
+      "source": "/installation/manual",
+      "destination": "/installation/overview"
+    },
+    {
+      "source": "/using-esim/data-roaming",
+      "destination": "/using-esim/connect-after-arrival"
+    },
+    {
+      "source": "/troubleshooting/activation-failed",
+      "destination": "/troubleshooting/esim-not-working"
+    },
+    {
+      "source": "/troubleshooting/no-data-connection",
+      "destination": "/troubleshooting/esim-not-working"
+    },
+    {
+      "source": "/troubleshooting/slow-internet",
+      "destination": "/troubleshooting/esim-not-working"
+    },
+    {
+      "source": "/troubleshooting/deleted-esim",
+      "destination": "/troubleshooting/install-failed"
+    },
+    {
+      "source": "/troubleshooting/wrong-device",
+      "destination": "/troubleshooting/install-failed"
+    },
+    {
+      "source": "/account/reset-password",
+      "destination": "/account/create-account"
+    },
+    {
+      "source": "/account/profile-settings",
+      "destination": "/account/create-account"
+    },
+    {
+      "source": "/account/notifications",
+      "destination": "/account/create-account"
+    },
+    {
+      "source": "/account/security",
+      "destination": "/account/create-account"
+    },
+    {
+      "source": "/bananos/what-are-bananos",
+      "destination": "/bananos/loyalty-levels"
+    },
+    {
+      "source": "/bananos/earning-bananos",
+      "destination": "/bananos/loyalty-levels"
+    },
+    {
+      "source": "/bananos/redeeming-bananos",
+      "destination": "/bananos/loyalty-levels"
+    },
+    {
+      "source": "/bananos/not-credited",
+      "destination": "/bananos/loyalty-levels"
+    },
+    {
+      "source": "/bananos/invite-friend",
+      "destination": "/bananos/referral-program"
+    },
+    {
+      "source": "/bananos/referral-not-credited",
+      "destination": "/bananos/referral-program"
+    }
+  ]
 }
